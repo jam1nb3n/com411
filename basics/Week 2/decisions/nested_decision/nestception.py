@@ -1,9 +1,9 @@
 lookLocation = input("Where should I look?\n")
 
 if (lookLocation == "in the bedroom"):
-   lookLocationBed = input("Where in the bedroom should I look?\n")
-   if (lookLocationBed == "under the bed"):
-       print("Found some shoes but no battery")
+    lookLocationBed = input("Where in the bedroom should I look?\n")
+    if (lookLocationBed == "under the bed"):
+        print("Found some shoes but no battery")
     else:
         print("Found some mess but no battery.")
 elif (lookLocation == "in the bathroom"):

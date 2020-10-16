@@ -1,11 +1,12 @@
-print("eye char: ")
+def run():
+    print("eye char: ")
 
-eye = input()
+    eye = input()
 
-print("##########")
-print("#",eye,"  ",eye,"#")
-print("#  ----  #")
-print("##########")
-print("  #    #  ")
-print("#        #")
-print("  ##  ## ")
+    print("##########")
+    print("#",eye,"  ",eye,"#")
+    print("#  ----  #")
+    print("##########")
+    print("  #    #  ")
+    print("#        #")
+    print("  ##  ## ")

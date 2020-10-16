@@ -42,5 +42,3 @@ def run():
     elif (selectFunction == 5):
         repeat(wordInput)
 
-
-run()

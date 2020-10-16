@@ -5,7 +5,5 @@ def display_ladder(steps):
         print("|-|")
         i += 1
 
-def create_ladder():
+def run():
     display_ladder(int(input("How many steps remain?\n")))
-
-create_ladder()

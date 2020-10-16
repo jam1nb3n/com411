@@ -12,5 +12,3 @@ def run():
         print(sum_weights(beep, bop))
     if (runMode == "average"):
         print(calc_avg_weight(beep, bop))
-
-run()

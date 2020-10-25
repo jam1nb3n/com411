@@ -5,5 +5,6 @@ def likelihood():
 
 def run():
     print(f"Minimum likelihood of falling: {likelihood()[0]}%")
+    print(f"Maximum likelihood of falling: {likelihood()[1]}%")
 
 run()

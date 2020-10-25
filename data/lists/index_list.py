@@ -10,5 +10,3 @@ def run():
     while(i < movementLen):
         print(f"{movement[i]} for {movement[i+1]} steps")
         i += 2
-
-run()

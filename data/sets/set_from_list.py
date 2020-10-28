@@ -17,5 +17,3 @@ def run():
     
     for observation in outputSet:
         print(f"{observation[0]} observed {observation[1]} times")
-
-run()

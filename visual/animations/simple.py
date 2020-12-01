@@ -4,11 +4,11 @@ import matplotlib.animation as animation
 fig, ax = plt.subplots()
     
 def animate(frame): 
-  print(frame)
+  global ax   
      
 def run():
-  global fig  
-  defaultAnimation = animation.FuncAnimation(fig, animate, frames=10, interval = 1000)
-  plt.show()
+  global fig
+
+  
       
-run()
+run()  

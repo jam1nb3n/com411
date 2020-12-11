@@ -24,6 +24,9 @@ class Robot:
     def display(self):
         print(f"I am {self.name}")
 
+    def grow(self):
+        self.age += 1
+
     def __repr__(self):
         return f"robot(name={self.name}, age={self.age})"
 
